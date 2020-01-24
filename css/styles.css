@@ -6,6 +6,10 @@ body {
 
 }
 
+.input-number {
+  color: black;
+}
+
 button {
   background-image: radial-gradient(#81388c, #7083f5, #22f2d7, #2f25e9);
   border: 3px solid #f1aafc;

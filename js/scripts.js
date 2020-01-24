@@ -9,8 +9,7 @@ var goalOutput =[];
 
 function myFunction(numberInput) {
   var numberFilter = ["1","2","3"];
-  var numbers = numberInput.split("");
-
+  var numbers = numberInput;
 
   if (numbers.includes(numberFilter[0])) {
     goalOutput.push("beep");
@@ -21,18 +20,19 @@ function myFunction(numberInput) {
   else if (numbers.includes(numberFilter[2])){
     goalOutput.push("I'm sorry, Dave. I'm afraid I can't do that.");
 }
-  // else if (numbers)
+  // else
 
 };
 
 
 $(document).ready(function() {
-  $("form.form").submit(function(event) {
+  $(".form").submit(function(event) {
     event.preventDefault();
-    var strInput = $("input.inputNumber").val();
+    var strInput = $("input.input-number").val();
     // var numberArray = (strInput.split(""));
-    for (var index = 0; index < strInput.length; index++) {
-      myFunction(strInput[index]);
+    for (var index = 0; index <= strInput; index++) {
+      myFunction(index);
+      console.log(index);
 }
   var output = goalOutput.join(" ");
   $("#output").text(output);
