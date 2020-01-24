@@ -1,1 +1,14 @@
+body {
+  text-align: center;
+  margin-top: 150px;
+  background-image: url("../img/universe picture.jpeg");
 
+}
+
+button {
+  background-image: radial-gradient(#81388c, #7083f5, #22f2d7, #2f25e9);
+  border: 3px solid #f1aafc;
+  border-radius: .5;
+  width: 150px;
+  height: 30px;
+}
