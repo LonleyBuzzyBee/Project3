@@ -15,9 +15,10 @@
 * _Then go to your terminal, enter 'cd desktop'. Then enter 'git clone' and paste the repo link provided in github pages._
 * _Then open the folder 'project3' in VS code or atom._
 * _Drag the 'index.html' file to your browser or enter 'open index.html' in VS code. Then you're done!_
+* _also, you can open it easily in your browser by clicking the HTML link in gh-pages https://lonleybuzzybee.github.io/Project3/
 ---
 ## Specifications:
-*the webpage takes an inputted number 
+*the webpage takes an inputted number
 *
 *
 *
