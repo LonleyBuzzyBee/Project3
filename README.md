@@ -17,7 +17,7 @@
 * _Drag the 'index.html' file to your browser or enter 'open index.html' in VS code. Then you're done!_
 ---
 ## Specifications:
-*
+*the webpage takes an inputted number 
 *
 *
 *
