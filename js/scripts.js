@@ -8,26 +8,28 @@ var goalOutput =[];
 //
 
 function myFunction(numberInput) {
-  var numberFilter = ["1","2","3"];
-  var numbers = numberInput;
+  // var numberFilter = ["1","2","3"];
+  // var numbers = numberInput;
 
-  if (numbers.includes(numberFilter[0])) {
+  if (numberInput === 1) {
     goalOutput.push("beep");
 }
-  else if (numbers.includes(numberFilter[1])){
+  else if (numberInput === 2) {
     goalOutput.push("boop");
 }
-  else if (numbers.includes(numberFilter[2])){
+  else if (numberInput === 3) {
     goalOutput.push("I'm sorry, Dave. I'm afraid I can't do that.");
 }
-  // else
-
+  else  {
+    goalOutput.push(numberInput);
+}
 };
 
 
 $(document).ready(function() {
   $(".form").submit(function(event) {
     event.preventDefault();
+    $("#output").empty();
     var strInput = $("input.input-number").val();
     // var numberArray = (strInput.split(""));
     for (var index = 0; index <= strInput; index++) {
@@ -36,5 +38,7 @@ $(document).ready(function() {
 }
   var output = goalOutput.join(" ");
   $("#output").text(output);
+}
+
   });
 });
