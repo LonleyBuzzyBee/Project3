@@ -15,14 +15,14 @@
 * _Then go to your terminal, enter 'cd desktop'. Then enter 'git clone' and paste the repo link provided in github pages._
 * _Then open the folder 'project3' in VS code or atom._
 * _Drag the 'index.html' file to your browser or enter 'open index.html' in VS code. Then you're done!_
-* _also, you can open it easily in your browser by clicking the HTML link in gh-pages https://lonleybuzzybee.github.io/Project3/
+* _also, you can open it easily in your browser by clicking the HTML link in gh-pages_ https://lonleybuzzybee.github.io/Project3/
 ---
 ## Specifications:
-*the webpage takes an inputted number.
-*the webpage then outputs values counting up to the inputted number
-*then the web page replaces the numbers based on if they meet the conditions of having the values 1,2,or 3 in them
-*it then replaces those numbers with fun phrases
-*any value with the number 1, replaces with the phrase 'beep!', any number with the value 2, replaces with the phrase 'boop!', and any number with the value 3, replaces with I'm sorry, Dave. I'm afraid I can't do that.
+* the webpage takes an inputted number.
+* the webpage then outputs values counting up to the inputted number
+* then the web page replaces the numbers based on if they meet the conditions of having the values 1,2,or 3 in them
+* it then replaces those numbers with fun phrases
+* any value with the number 1, replaces with the phrase 'beep!', any number with the value 2, replaces with the phrase 'boop!', and any number with the value 3, replaces with I'm sorry, Dave. I'm afraid I can't do that.
 ---
 ## Known bugs:
 #### Currently no known bugs.
