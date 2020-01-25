@@ -1,17 +1,19 @@
 var goalOutput =[];
 
 function myFunction(numberInput) {
+var filter = ["1","2","3"];
+var numbers = numberInput.toString().split("");
 
-  if (numberInput === 1) {
-    goalOutput.push("beep");
+    if (numbers.includes(filter[2])) {
+  goalOutput.push("I'm sorry, Dave. I'm afraid I can't do that.");
   }
-  else if (numberInput === 2) {
-    goalOutput.push("boop");
+    else if (numbers.includes(filter[1])) {
+    goalOutput.push("boop!");
   }
-  else if (numberInput === 3) {
-    goalOutput.push("I'm sorry, Dave. I'm afraid I can't do that.");
+    else if (numbers.includes(filter[0])) {
+    goalOutput.push("beep!");
   }
-  else  {
+    else {
     goalOutput.push(numberInput);
   }
 }

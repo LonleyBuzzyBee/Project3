@@ -18,10 +18,11 @@
 * _also, you can open it easily in your browser by clicking the HTML link in gh-pages https://lonleybuzzybee.github.io/Project3/
 ---
 ## Specifications:
-*the webpage takes an inputted number
-*
-*
-*
+*the webpage takes an inputted number.
+*the webpage then outputs values counting up to the inputted number
+*then the web page replaces the numbers based on if they meet the conditions of having the values 1,2,or 3 in them
+*it then replaces those numbers with fun phrases
+*any value with the number 1, replaces with the phrase 'beep!', any number with the value 2, replaces with the phrase 'boop!', and any number with the value 3, replces with I'm sorry, Dave. I'm afraid I can't do that.
 ---
 ## Known bugs:
 #### Currently no known bugs.
