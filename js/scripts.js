@@ -1,5 +1,6 @@
 // var goalOutput =[];
 function myFunction(numberInput) {
+<<<<<<< HEAD
 
 var filter = ["1","2","3"];
 var numbers = numberInput.toString().split("");
@@ -8,6 +9,16 @@ var numbers = numberInput.toString().split("");
   } else if (numbers.includes(filter[1])) {
     goalOutput.push("boop!");
   } else if (numbers.includes(filter[0])) {
+=======
+var goalOutput =[];
+var filter = ["1","2","3"];
+var numbers = numberInput.toString().split("");
+    if (numbers.filter([2])) {
+  goalOutput.push("I'm sorry, Dave. I'm afraid I can't do that.");
+} else if (numbers.filter([1])) {
+    goalOutput.push("boop!");
+  } else if (numbers.filter([0])) {
+>>>>>>> gh-pages
     goalOutput.push("beep!");
   } else {
     goalOutput.push(numberInput);
