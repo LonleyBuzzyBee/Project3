@@ -15,12 +15,18 @@
 * _Then go to your terminal, enter 'cd desktop'. Then enter 'git clone' and paste the repo link provided in github pages._
 * _Then open the folder 'project3' in VS code or atom._
 * _Drag the 'index.html' file to your browser or enter 'open index.html' in VS code. Then you're done!_
+* _also, you can open it easily in your browser by clicking the HTML link in gh-pages_ https://lonleybuzzybee.github.io/Project3/
 ---
+#### the webpage takes an inputted number. The webpage then outputs values counting up to the inputted number. Then the web page replaces the numbers based on if they meet the conditions of having the values 1,2,or 3 in them it then replaces those numbers with fun phrases. Any value with the number 1, replaces with the phrase 'beep!', any number with the value 2, replaces with the phrase 'boop!', and any number with the value 3, replaces with I'm sorry, Dave. I'm afraid I can't do that.
+
 ## Specifications:
-*the webpage takes an inputted number 
-*
-*
-*
+| Behavior | Input | Output |
+|---|---|---|
+| Spec: The program returns a range of numbers from 0 to the users inputted number | 7 | 0,1,2,3,4,5,6,7 |
+| Then it replaces every number with the value 1 with beep! | 10 | 0,beep!,2,3,4,5,6,7,8,9,beep!  |
+| Then it replaces every number with the value 2 with boop!| 2 | 0,1,boop!|
+|Then it replaces every number with the value 3 with I'm sorry, Dave. I'm afraid I can't do that.| 3 | 0,1,2,I'm sorry, Dave. I'm afraid I can't do that.|
+| then all of these properties are applied, 3 being the most important | 23  | 0,beep!,boop!,I'm sorry, Dave. I'm afraid I can't do that.,4,5,6,7,8,9,beep!,beep!,boop!,I'm sorry, Dave. I'm afraid I can't do that.,beep!,beep!,beep!,beep!,beep!,beep!,boop!,boop!,boop!,I'm sorry, Dave. I'm afraid I can't do that.|
 ---
 ## Known bugs:
 #### Currently no known bugs.
@@ -31,10 +37,12 @@
 ## Technologies used:
 * Bootstrap v3.3.7
 * CSS
-* VS code
+* Jquery-3-4-1
+* Javascript
+* Atom
 * Git Bash
 * HTML
 ---
 ## Legal
-#### Copyright (c) 2020 Mai A. Cook
 #### This website is licensed under MIT license
+#### Copyright (c) 2020 Mai A. Cook
